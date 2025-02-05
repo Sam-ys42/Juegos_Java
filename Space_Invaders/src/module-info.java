@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module Space_Invaders {
-}
