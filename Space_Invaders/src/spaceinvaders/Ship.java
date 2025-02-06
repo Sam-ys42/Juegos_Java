@@ -46,7 +46,7 @@ public class Ship {
 	  if(key == KeyEvent.VK_RIGHT) dx= SPEED;
 	  if(key == KeyEvent.VK_LEFT) dx= SPEED*-1;
 	  if(key == KeyEvent.VK_SPACE && shot) {
-		 // lasers.add(new Laser(x + imagen.getWidth(null)/2, y));
+		 lasers.add(new Laser(x + imagen.getWidth(null)/2, y));
 		  shot = false;
 	  }
 
@@ -55,7 +55,7 @@ public class Ship {
   public void keyReleased(KeyEvent e) {
 	  int key = e.getKeyCode();
 	  
-	  //if(key == KeyEvent.VK_LEFT && dx < dx = " 0;" key ="="> 0)
+	  //if(key == KeyEvent.VK_LEFT && dx < dx = " 0;" key => 0)
 	//	  dx=0;
 	  if(key == KeyEvent.VK_SPACE) shot = true;
 	  
